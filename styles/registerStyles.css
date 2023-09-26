@@ -1,1 +1,91 @@
+.logo{
+    width:5%;
+    height:9%;
+    position:fixed;
+}
+header div{
+    display:flex;
+}
+.inline{
+    justify-content:space-between;
+}
+.reg{
+    font-size:200%;
+    position:fixed;
+    padding:1% 0 0 0;
+    background-size:cover;
+    background:linear-gradient(to right,white 2%,#0096fa);
+    font-family: 'Montserrat', sans-serif;
+    width:100%;
+    height:50px;
+    margin:0;
+    margin-left: 6%;
+}
+.enterwindow{
+    border:2px solid #0096fa;
+    width:290px;
+    height:340px;
+    border-radius: 7%;
+    position: fixed;
+    top: 26%;
+    left: 38%;
+
+}
+.nameOfRegWindow{
+   font-family: 'Raleway', sans-serif;
+   position:absolute;
+   font-size:200;
+   top: 22%;
+   left:45%;
+}
+p{
+font-family: 'Raleway', sans-serif;
+margin-bottom:1.5%;
+font-size:200;
+}
+
+.loginString{
+margin-left: 10%;
+}
+.enterButton{
+    margin-top:5%;
+    margin-left:38%;
+
+}
+.passwordString{
+margin-top: 3%;
+margin-left: 10%;
+}
+
+footer{
+font-family: 'Raleway', sans-serif;
+   position:absolute;
+   top: 92%;
+   left:42%;
+   color: grey;
+}
+.normalInput{
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px;
+}
+.emptyInput{
+    border-width: 1px;
+    border-color: red;
+    border-radius: 4px 4px 4px 4px;
+}
+.regButt{
+    font-family: 'Raleway', sans-serif;
+    position: fixed;
+    top:77%;
+    left:43.5%;
+}
+.secondName{
+    margin-left:10%;
+}
+.Name{
+    margin-left: 10%;
+}
+.thirdName{
+    margin-left: 10%;
+}
 
