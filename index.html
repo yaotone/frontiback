@@ -15,8 +15,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/registerStyles.css">
-    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Вход</title>
 </head>
 <body>
     <header class="inline">
@@ -25,32 +25,17 @@
     </header>
     <section>
         <div class="nameOfRegWindow">
-            Регистрация
+            Для продолжения необходима авторизация
         </div>
         <div class="enterwindow">
-            <div class="secondName">
-                <p>Фамилия:</p>
-                <input pattern="[А-Яа-яЁё]" minlength="2" type="text" size="30" placeholder="Иванов" 
-                required id="secondNameInput" class="normalInput">
-            </div>
-            <div class="Name">
-                <p>Имя:</p>
-                <input pattern="[А-Яа-яЁё]" type="text" minlength="2" size="30" placeholder="Иван" 
-                required id="nameInput" class="normalInput">
-            </div>
-            <div class="thirdName">
-                <p>Отчество:</p>
-                <input pattern="[А-Яа-яЁё]" type="text" minlength="2" size="30" placeholder="Иванович" 
-                required id="thirdNameInput" class="normalInput">
-            </div>
             <div class = "loginString">
                 <p>логин:</p>
-                <input minlength="2" type="email" size="30" placeholder="example@edu.mirea.ru" 
+                <input type="email" size="30" placeholder="example@edu.mirea.ru" 
                 required id="mail" class="normalInput">
             </div>
             <div class = "passwordString">
                 <p>пароль:</p>
-                <input minlength="8" type="password" size="30" placeholder="password"
+                <input type="password" size="30" placeholder="password"
                  required id="pass" class="normalInput">
             </div>
             <div>
@@ -58,7 +43,7 @@
             </div>
         </div>
         <div class="regButt">
-            <a href="index.html">У меня есть аккаунт</a>
+            <a href="registerPage.html">зарегистрироваться</a>
         </div>
     </section>
     <footer>
@@ -66,6 +51,6 @@
             @проектная работа 2023
         </div>
     </footer>
-    <script src="scripts/register.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
